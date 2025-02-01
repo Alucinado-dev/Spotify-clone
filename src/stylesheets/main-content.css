@@ -76,16 +76,18 @@ header .header-login{
     gap: 3.2rem;
 }
 
-header .header-login button{
-    border: none;
-    cursor: pointer;
-}
 
-header .header-login .subscribe{
+header .header-login h3 {
     font-size: 1.6rem !important;
     font-weight: 700;
     color: var(--text-grey);
     background-color: transparent;
+}
+
+header .header-login img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
 }
 
 head .header-login .subscribe:hover {
@@ -93,7 +95,7 @@ head .header-login .subscribe:hover {
   color: var(--text-base-light);
 }
 
-header .header-login .login{
+header .header-login #theme{
     width: 100px;
     height: 48px;
     color: black;
@@ -101,11 +103,13 @@ header .header-login .login{
     font-weight: 700;
     border-radius: 100px;
     background-color: var(--buttons);
-    padding: 1px 6px;
+    padding: 1px 4px;
+    cursor: pointer;
+    border: none;
 }
 
-head .header-login.login:hover {
-    transform: scale(1.04);
+head .header-login #theme:hover {
+    transform: scale(1.4);
 }
 
 
