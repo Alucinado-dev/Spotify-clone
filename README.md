@@ -31,7 +31,7 @@ Projeto desenvolvido durante a semana de imersão Front-End da Alura. O objetivo
 
 ## Link para o projeto
 
-[text](https://spotify-clone-delta-silk.vercel.app)
+[Spotify Clone](https://spotify-clone-delta-silk.vercel.app)
 
 ## Contato 
 
