@@ -1,5 +1,5 @@
 
-[data-theme="theme1"] {
+body[data-theme="theme1"] {
   --background: var(--cadet-grey);
   --elements : var(--chinese-black);
   --search-bar: var(--american-blue);
@@ -154,7 +154,7 @@ head .header-login .subscribe:hover {
   color: var(--text-base-light);
 }
 
-header .header-login #theme{
+header .header-login #theme-button{
     width: 100px;
     height: 48px;
     color: black;
@@ -167,49 +167,57 @@ header .header-login #theme{
     border: none;
 }
 
-header .header-login #theme:hover {
+header .header-login #theme-button:hover {
     transform: scale(1.04);
 }
 
-header #theme-selection {
+main #theme-selection {
   display: none;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   gap: 10px;
+  background-color: var(--search-bar);
+  right: 0;
+  top: 0;
+  margin : 150px 40px 0 0;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
 }
 
-header #theme-selection .theme-option{
+main #theme-selection .theme-option{
   width: 30px;
   height: 30px;
   border: none;
   border-radius: 5px;
   box-shadow: currentColor;
+  cursor: pointer
 }
 
-header #theme-selection #button-theme1{
+main #theme-selection #button-theme1{
   background-color: var(--cadet-grey);
 }
-header #theme-selection #button-theme2{
+main #theme-selection #button-theme2{
   background-color: var(--chinese-black2);
 }
-header #theme-selection #button-theme3{
+main #theme-selection #button-theme3{
   background-color: var(--platinum);
 }
-header #theme-selection #button-theme4{
+main #theme-selection #button-theme4{
   background-color: var(--eerie-black);
 }
-header #theme-selection #button-theme5{
+main #theme-selection #button-theme5{
   background-color: var(--crimson);
 }
-header #theme-selection #button-theme6{
+main #theme-selection #button-theme6{
   background-color: var(--vapor-bg);
 }
-header #theme-selection #button-theme7{
+main #theme-selection #button-theme7{
   background-color: var(--steel-teal);
 }
-header #theme-selection #button-theme1{
+main #theme-selection #button-theme8{
   background-color: var(--background);
 }
 
