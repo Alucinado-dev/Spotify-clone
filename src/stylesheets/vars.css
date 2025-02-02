@@ -38,6 +38,8 @@
     --search-bar: #61616142;
     --buttons: whitesmoke;
     --cards-bg: #121212;
+
+
         /* campos de lavanda */
     --cadet-grey: rgb(149,155,181);
     --chinese-black: #0a1123;
@@ -62,6 +64,24 @@
     --cadet-grey2: #86a3b4;
     --pewter-blue: #9aabba;
     --brink-pink: #f75e74;
+        /* 50"s */
+    --crimson: #b20b13;
+    --bombshell: #fdecdc;
+    --sultry-scarlet: #6e4644;
+    --midnight-mischief: #2a4562;
+    --fiery-frenzy: #b41a1a;
+        /* vaporwave */
+    --vapor-bg: #3b0855;
+    --vapor-purple: #852467;
+    --vapor-pink: #ee227d;
+    --vaporblue: #498099;
+    --vaporcyan: #30c0b7;
+        /* indie */
+    --steel-teal: #578088;
+    --doolphin-grey: #74948c;
+    --french-beige: #cfb580;
+    --milk-chocolate: #864e3e;
+    --copper-red: #ca7c4c;
 
 }
 

@@ -35,3 +35,30 @@ document.addEventListener('input', function () {
   requestApi(searchTerm);
 });
 
+/* seleção de temas */
+
+const themeButton = document.getElementById('theme-button');
+const themeSelection = document.getElementById('theme-selection');
+
+const savedTheme = localStorage.getItem('theme');
+
+if (savedTheme) {
+  document.body.setAttribute('data-theme', savedTheme);
+}
+
+themeButton.addEventListener('click', () => {
+  if (themeSelection.style.display === 'grid') {
+    themeSelection.style.display = 'none';
+  } else {
+    themeSelection.style.display = 'grid';
+  }
+
+  themeSelection.querySelectorAll('.theme-option').forEach((option) => {
+    option.addEventListener('click', () => {
+      const selectedTheme = option.getAttribute('data-theme');
+      document.body.setAttribute('data-theme', selectedTheme);
+      localStorage.setItem('theme', selectedTheme);
+      themeSelection.style.display = 'none';
+    });
+  });
+});
