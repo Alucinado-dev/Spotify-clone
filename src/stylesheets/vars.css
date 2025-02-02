@@ -41,47 +41,47 @@
 
 
         /* campos de lavanda */
-    --cadet-grey: rgb(149,155,181);
-    --chinese-black: #0a1123;
-    --american-blue: #3a3e6c;
-    --ube:#8387c3;
-    --cool-grey:#8a8cac;
+    --cadet-grey:  rgb(15,15,38) ;
+    --chinese-black: rgb(33,18,89);
+    --american-blue: rgb(53,52,89);
+    --ube: rgb(38,76,191);
+    --cool-grey: rgb(242,210,46);
         /* azuree dreams */
-    --chinese-black2: #0a111a;
-    --yinmn-blue: #294a8f;
-    --pale-cerulean: #9fb7e3;
-    --languid-lavander: #d8d0e7;
-    --ceil: #9295d0;
+    --chinese-black2: #780000;
+    --yinmn-blue: #c1121f;
+    --pale-cerulean: #003049;
+    --languid-lavander:  #fdf0d5 ;
+    --ceil: #669bbc;
         /* jardim de inverno */
-    --platinum: #eee2df;
-    --thistle: #dec1db;
-    --liberty: rgb(91,97,178);
-    --bleu-de-france: #2f80e4;
-    --little-boy-blue: #6da0e1;
+    --platinum: #264653;
+    --thistle: #2a9d8f;
+    --liberty: #e76f51;
+    --bleu-de-france: #e9c46a; 
+    --little-boy-blue:  #f4a261;
         /* horizonte invernal */
     --eerie-black: #181a1e;
     --deep-space-sparkle: #405c6f;
-    --cadet-grey2: #86a3b4;
+    --cadet-grey2: #23485e;
     --pewter-blue: #9aabba;
     --brink-pink: #f75e74;
         /* 50"s */
-    --crimson: #b20b13;
-    --bombshell: #fdecdc;
-    --sultry-scarlet: #6e4644;
-    --midnight-mischief: #2a4562;
-    --fiery-frenzy: #b41a1a;
+    --crimson:  #3a86ff;
+    --bombshell:  #ff006e;
+    --sultry-scarlet: #8338ec;
+    --midnight-mischief: #ffbe0b; 
+    --fiery-frenzy: #fb5607;
         /* vaporwave */
     --vapor-bg: #3b0855;
-    --vapor-purple: #852467;
-    --vapor-pink: #ee227d;
+    --vapor-purple: #ee227d ;
+    --vapor-pink: #852467 ;
     --vaporblue: #498099;
     --vaporcyan: #30c0b7;
         /* indie */
-    --steel-teal: #578088;
-    --doolphin-grey: #74948c;
-    --french-beige: #cfb580;
-    --milk-chocolate: #864e3e;
-    --copper-red: #ca7c4c;
+    --steel-teal: #003049;
+    --doolphin-grey: #d62828;
+    --french-beige: #f77f00;
+    --milk-chocolate: #fcbf49;
+    --copper-red: #eae2b7;
 
 }
 
