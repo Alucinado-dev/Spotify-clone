@@ -254,6 +254,8 @@ main #playlist-cards {
     margin: 24px 24px 16px 24px;
     overflow-y:auto;
     background-color: var(--cards-bg);
+    padding: 12px;
+    border-radius: 8px;
 }
   
 main #playlist-cards::-webkit-scrollbar {
