@@ -149,7 +149,7 @@ header .header-login img{
   border-radius: 100%;
 }
 
-head .header-login .subscribe:hover {
+header .header-login .subscribe:hover {
   transform: scale(1.04);
   color: var(--text-base-light);
 }
